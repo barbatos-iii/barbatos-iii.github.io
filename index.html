@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>听凭风引</title>
+    <link rel="icon" href="img2/微信图片_20221104170351.jpg" type="img2/jpg" />
+    <style>
+        .nav{
+            height: 90px;
+            border: 3px;
+            border-color: rgb(110, 188, 145);
+            border-bottom-style: solid;
+        }
+        
+        .img-top{
+            height: 90px;
+        }
+        .img-top-radius{
+            margin-left: 5px;
+            height: 80px;
+            border-radius: 10px;
+        }
+        
+        .nav .hidden-left{
+            float: left;
+            height: 90px;
+            width: 100px;
+            overflow: hidden;
+        }
+        .nav .hidden-right{
+            float: right;
+            height: 90px;
+            width: 100px;
+            overflow: hidden;
+            
+        }
+        .nav .hidden-left:hover{
+            overflow: visible;
+        }
+        .nav .hidden-right:hover{
+            overflow: visible;
+        }
+    
+        .nav .hidden-right .menu{
+            height: 120px;
+            width: 120px;
+            background-color: rgba(71, 163, 138, 0.749);
+        }
+        *{margin: 0;
+        padding: 0;}
+        .nav .hidden-right .menu li{
+            padding: 3px;
+            list-style: none;
+            display: block;
+        }
+        .gif{
+            width: 300px;
+            height: 300px;
+            top: 80px;
+            margin-right: 10px;
+            position:relative;
+            border-radius:10px ;
+            float:right ;
+        }
+        .gif:hover{
+            width: 340px;
+            height: 340px;
+            transition: all 2s;
+            box-shadow: 10px 10px 5px rgba(13, 14, 13, 0.429);
+        }
+        .nav .hidden-right .menu li a{
+            display: block;
+            text-decoration: none;
+            color: #000;
+        }
+        .nav .hidden-right .menu li:hover{
+            background-color: rgb(71, 163, 139);
+        }
+        .background-color{
+            background:linear-gradient(60deg,rgba(175, 191, 69, 0.55),rgba(48, 167, 48, 0.358),rgba(73, 185, 185, 0.587),rgba(0, 89, 255, 0.304),rgba(169, 46, 46, 0.436));
+            height: 950px;
+            width: 100%;
+            background-size: 600% 600%;
+            animation: gradient_ 5s ease infinite;
+
+        }
+        @keyframes gradient_{
+            0%{
+               background-position:0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
+        .main{
+            width: 75%;
+            background-position: center top;
+            height: 950px;
+            margin: 0px auto;
+            background-color: rgba(175, 177, 178, 0.671);
+            background-image: url(img2/naxida.jpg);
+            opacity: 0.8;
+        }
+        *{
+            margin: 0;
+        }
+        .box1{
+            position: relative;
+            left: 150px;
+            top: 100px;
+            width: 600px;
+            height: 338px;
+            overflow: hidden;
+            border-radius: 10px;
+            border: 8px;
+            border-style: dashed;
+            border-color: rgba(216, 244, 226, 0.548);
+        }
+         .img{
+            float: left;
+            width: 2420px;
+            height: 338px;
+            animation: move 20s infinite;
+         }
+
+        @keyframes move {
+        0%{
+            transform: translate(0);
+        }
+        25%{
+            transform: translate(-605px);
+        }
+        50%{
+            transform: translate(-1210px);
+        }
+        75%{
+            transform: translate(-1815px);
+        }
+        100%{
+            transform: translate(-2420px);
+        }
+        }
+        .box2{
+         
+        }
+        .box2 li{
+            float: left;
+            width: 120px;
+            overflow: hidden;
+            border-radius: 20px;
+            margin: 12px;
+            transition: all 2s;
+            
+        }
+        .box2 li:hover{
+            width: 300px;
+            transition: all 2s;
+            box-shadow: 5px 5px 4px rgba(13, 14, 13, 0.429);
+        }
+        .img1{
+            width: 300px;
+            height:440px;
+        }
+        .foot{background-color: rgba(0, 0, 0, 0.096);
+        width: 100%;
+    height: 100px;}
+        .head{
+            display: inline-block;
+            text-align: center;
+            color: rgb(71,163,139);
+            line-height: 90px;
+        }
+        .fixed{width: 70px;
+            height: 175px;
+            left: 80px;
+            border: 5px;
+            border-color: #47a38b;
+            border-style: solid;
+            background-color: aliceblue;
+            position: fixed;
+            overflow: hidden;
+        }
+        .img-fixed{
+            width: 71px;
+            height: 71px;
+        }
+        .nav>a{
+            display: inline-block;
+            width: 200px;
+            text-decoration: none;
+            color: #000;
+            font-size: 30px;
+            text-align: center;
+            line-height: 90px;
+            margin:0 22px;
+        }
+        .nav>a:hover{
+            background-color: #47a38b;
+            color: rgba(0, 0, 255, 0.735);
+            font-weight: 700px;
+        }
+       //* .img_{
+            width: 150px;
+            height: 150px;
+            float: right;
+            margin: 5px;
+            border-radius: 5px;
+            padding-top: 10px;
+        }
+        .img_:hover{
+            width: 320px;
+            height: 320px;
+            transition: all 2s;
+            box-shadow: 5px 5px 2px rgba(13, 14, 13, 0.429);}*//
+        .info{
+            width: 200px;
+            height: 400px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="hidden-left">
+            <div id="top"><img src="img2/微信图片_20221104170334.jpg" class="img-top"></div>
+        <div><img src="img2/f_fywy.jpg" class="img-top-radius"></div>
+    </div>
+        <a href="https://baike.baidu.com/item/%E5%8E%9F%E7%A5%9E/23583622">游戏介绍>></a>
+        <a href="https://www.bilibili.com/video/BV1At4y1q7UQ/?spm_id_from=333.999.0.0">宣传视频>></a>
+        <a href="https://www.biligame.com/detail/?id=103496">下载地址>></a>
+        <a herf="#">更多>></a>
+    <div class="hidden-right">
+        <div class="right"><img src="img2/微信图片_20221104170345.jpg" class="img-top"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="background-color" contenteditable="img-fixed">
+        <div class="fixed" >
+            <img src="img2/f_wd.jpg" class="img-fixed">
+            <audio controls="controls" loop="loop">
+                <source src="img2/陈致逸 HOYO-MiX - Liyue 璃月.mp3" type="audio/mp3"></source></audio>
+        点击播放<br/>♪(´▽｀)
+        </div>
+        <div class="main">
+        <div class="box2">
+            <ul>
+        <li><img src="img2/sanbing.jpg" class="img1"></li>
+        <li><img src="img2/万叶.jpg" class="img1"></li>
+        <li><img src="img2/xiao.jpg" class="img1"></li>
+            </ul>
+        <div>
+            <div class="info">
+                <br/>
+                <br/>
+                <h3>背景介绍</h3>
+                这里是七种元素交汇的幻想世界“提瓦特”。
+                   在遥远的过去，人们藉由对神灵的信仰，获赐了驱动元素的力量，得以在荒野中筑起家园。
+                百年前，古国的覆灭却使得天地变异……
+                如今，席卷大陆的灾难已经停息，和平却仍未如期光临。
+                作为故事的主人公，你从世界之外漂流而来，降临大地。你将在这广阔的世界中，自由旅行、结识同伴、寻找掌控尘世元素的七神，直到与分离的血亲重聚。
+                <h3>角色获取</h3>
+                游戏中拥有许多可操控角色，开局的默认角色可以选择男女，此外的角色性别固定。
+                除旅行者外的角色，可以通过剧情、祈愿和活动获取。  
+                如安柏是游戏中除主角外，玩家可通过剧情激活的第一个角色。
+                大部分角色都需要通过祈愿获取，祈愿分为常驻祈愿和活动祈愿，祈愿需要消耗相遇之缘或纠缠之缘。
+
+            </div>
+        </div>
+        <div class="box1">
+            <div class="img">
+                <img src="img2/lunbo1.jpg">
+                <img src="img2/lunbo2.jpg">
+                <img src="img2/lunbo3.jpg">
+                <img src="img2/lunbo4.jpg">
+                </div>
+        </div>
+        </div>
+    </div>
+    <div class="foot"></div>
+
+    
+</body>
+</html>
